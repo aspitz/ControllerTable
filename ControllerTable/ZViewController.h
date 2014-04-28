@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Ayal Spitz. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ZControllerTableController.h"
 
-@interface ZViewController : UIViewController
+@interface ZViewController : ZControllerTableController
 
 @end

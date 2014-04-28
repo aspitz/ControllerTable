@@ -7,6 +7,7 @@
 //
 
 #import "ZViewController.h"
+#import "ZCellController.h"
 
 @interface ZViewController ()
 
@@ -14,16 +15,22 @@
 
 @implementation ZViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    ZCellController *cellController = [[ZCellController alloc]init];
+    cellController.view.backgroundColor = [UIColor redColor];
+    [cellController.cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
+    [self addCellController:cellController];
+
+    cellController = [[ZCellController alloc]init];
+    cellController.view.backgroundColor = [UIColor greenColor];
+    [self addCellController:cellController];
+
+    cellController = [[ZCellController alloc]init];
+    cellController.view.backgroundColor = [UIColor blueColor];
+    [self addCellController:cellController];
 }
 
 @end

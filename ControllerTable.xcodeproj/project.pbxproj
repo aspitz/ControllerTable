@@ -21,6 +21,8 @@
 		79115CD2190DFE0E009B557B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79115CB4190DFE0D009B557B /* UIKit.framework */; };
 		79115CDA190DFE0E009B557B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79115CD8190DFE0E009B557B /* InfoPlist.strings */; };
 		79115CDC190DFE0E009B557B /* ControllerTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79115CDB190DFE0E009B557B /* ControllerTableTests.m */; };
+		79115CE7190DFF20009B557B /* ZControllerTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79115CE6190DFF20009B557B /* ZControllerTableController.m */; };
+		79115CEA190DFFE8009B557B /* ZCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79115CE9190DFFE8009B557B /* ZCellController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		79115CD7190DFE0E009B557B /* ControllerTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControllerTableTests-Info.plist"; sourceTree = "<group>"; };
 		79115CD9190DFE0E009B557B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79115CDB190DFE0E009B557B /* ControllerTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerTableTests.m; sourceTree = "<group>"; };
+		79115CE5190DFF20009B557B /* ZControllerTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZControllerTableController.h; sourceTree = "<group>"; };
+		79115CE6190DFF20009B557B /* ZControllerTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZControllerTableController.m; sourceTree = "<group>"; };
+		79115CE8190DFFE8009B557B /* ZCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCellController.h; sourceTree = "<group>"; };
+		79115CE9190DFFE8009B557B /* ZCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCellController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				79115CC2190DFE0E009B557B /* Main.storyboard */,
 				79115CC5190DFE0E009B557B /* ZViewController.h */,
 				79115CC6190DFE0E009B557B /* ZViewController.m */,
+				79115CE5190DFF20009B557B /* ZControllerTableController.h */,
+				79115CE6190DFF20009B557B /* ZControllerTableController.m */,
+				79115CE8190DFFE8009B557B /* ZCellController.h */,
+				79115CE9190DFFE8009B557B /* ZCellController.m */,
 				79115CC8190DFE0E009B557B /* Images.xcassets */,
 				79115CB7190DFE0D009B557B /* Supporting Files */,
 			);
@@ -250,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79115CEA190DFFE8009B557B /* ZCellController.m in Sources */,
 				79115CBD190DFE0E009B557B /* main.m in Sources */,
+				79115CE7190DFF20009B557B /* ZControllerTableController.m in Sources */,
 				79115CC7190DFE0E009B557B /* ZViewController.m in Sources */,
 				79115CC1190DFE0E009B557B /* ZAppDelegate.m in Sources */,
 			);
